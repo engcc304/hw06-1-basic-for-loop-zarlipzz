@@ -30,3 +30,20 @@
         [7] Hello World
 
 */
+    #include <stdio.h>
+    int main() {
+        int Earth ;
+        scanf("%d" , &Earth ) ;
+        if( Earth %2 == 1 ) {
+            for(int i = 1; i <= Earth; i++) {
+            printf("[%d] Hello World\n" , i) ;
+            }
+        }
+        else{
+             for(int i = 1; i <= Earth; i++) {
+            printf("(%d) Hello World\n" , i) ;
+            }
+        }
+        return 0 ;
+    
+    }
